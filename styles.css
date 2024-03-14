@@ -1,0 +1,45 @@
+/* Set the font family and background color for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto; /* Center horizontally */
+    padding: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('./weather.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire container with the background image */
+}
+
+/* Styles for the container */
+.container {
+    max-width: 30%; /* Maximum width of the container */
+    margin: 18% auto; /* Center the container vertically */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Background color of the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center-align text inside the container */
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #007bff; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 60%; /* Adjust maximum width for smaller screens */
+    }
+}
